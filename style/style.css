@@ -1,46 +1,328 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
- /*Nav styles */
- nav{
-    display: flex;
-    justify-content: space-around;
-    margin: 50px 100px;
-    flex-direction: absolute;
-    width: 160;
-    height: 100;
-    left: 0;
-    top: 0;
-    align-items: center;
-    padding: 24px 160px 24px 160px;
-    background: rgb(245, 245, 245);
+.pro{
+  position: absolute;
+width: 1600px;
+height: 5181px;
 
-
- }
- .nav-title{
-    position: static;
-    
-    justify-content: center;
-    color: 0E0E0E;
-
-
- }
- .sig{
-  
+}
+.ot{
+  /* Frame 2 */
+position: absolute;
+width: 1600px;
+height: 100px;
+left: 0;
+top: 0;
+/* Auto layout */
 display: flex;
- color: rgb(0, 106, 80);
- position: static;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 24px 160px 24px 160px;
+background: rgb(245, 245, 245);
+
+
+ 
+
+}
+.ban{
+  /* Bangladesh 2.0 */
+position: static;
+width: 222px;
+height: 38px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+gap: 10;
+padding: 24px 160px 24px 160px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 10px;
+color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 32px;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: left;
+
+ 
+
+
+}
+.sig{
+  /* Frame 2 */
+position: static;
 width: 116px;
 height: 52px;
-box-sizing: border-box;
-border: 1px solid rgb(0, 106, 80);
-border-radius: 8px;
+/* Auto layout */
+display: flex;
 flex-direction: row;
 justify-content: center;
 align-items: center;
 gap: 48;
 padding: 15px 30px 15px 30px;
-flex: none;
-order: 2;
-flex-grow: 0;
-margin: 0px 421px;
 
- }
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 10px;
+box-sizing: border-box;
+border: 1px solid rgb(0, 106, 80);
+border-radius: 8px;
+
+  
+
+
+}
+
+.pin{
+  /* Sign In */
+position: static;
+width: 56px;
+height: 22px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 48;
+padding: 15px 30px 15px 30px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 48px;
+color: rgb(0, 106, 80);
+font-family: Fira Sans;
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+
+}
+.khali{
+  /* Bangladesh 2.0 */
+position: relative;
+width: 1600px;
+height: 5300px;
+background: rgb(245, 245, 245);
+}
+.puru{
+  /* Frame 2087325624 */
+position: absolute;
+width: 1600px;
+height: 5181px;
+left: 0;
+top: 120px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 80;
+padding: 0px;
+
+
+  
+}
+.cont{
+  /* Frame 4 */
+position: static;
+width: 1280px;
+height: 560px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 64;
+padding: 80px 100px 80px 100px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 80px 0px;
+border-radius: 24px;
+
+background: rgb(198, 228, 214);
+
+}
+.one{
+  /* Frame 3 */
+position: static;
+width: 622px;
+height: 326px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 24;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 64px;
+
+}
+.matha{
+  /* Frame 2087325503 */
+position: static;
+width: 622px;
+height: 246px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 16;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 24px 0px;
+}
+
+.de{
+  /* Bangladesh 2.0 */
+position: static;
+width: 622px;
+height: 29px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 16;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 16px 0px;
+color: rgba(14, 14, 14, 0.5);
+font-family: Fira Sans;
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: left;
+
+
+}
+.id{
+  /* Idea , innovation , vision and challenges in New Bangladesh. */
+position: static;
+width: 622px;
+height: 201px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 16;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 16px 0px;
+color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 56px;
+font-weight: 700;
+line-height: 67px;
+letter-spacing: 0%;
+text-align: left;
+ 
+
+}
+.but{
+  /* Frame 2 */
+position: static;
+width: 270px;
+height: 56px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 48;
+padding: 17px 34px 17px 34px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 24px 0px;
+border-radius: 8px;
+
+background: rgb(0, 106, 80);
+
+}
+.ft{
+  /* Explore New Bangladesh */
+position: static;
+width: 202px;
+height: 22px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 48;
+padding: 17px 34px 17px 34px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 48px;
+color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+
+
+}
+.pic{
+  /* Group 1 */
+position: static;
+width: 474.03px;
+height: 400px;
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 64px;
+ 
+}
